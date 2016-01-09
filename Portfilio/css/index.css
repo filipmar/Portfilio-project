@@ -1,0 +1,360 @@
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.navbar-default{
+	background-color: #EDE9E9;
+    border-color: #ABABAB;
+    background:transparent;
+}
+
+.navbar-default.scrolled {
+    background: rgba(0, 0, 0, 1)
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #29C3F6;
+    text-shadow: 0 1px 0 rgba(255,255,255,.25);
+    font-size: 20px;
+    margin-left: 52px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #29C3F6;
+	background: rgba(230, 230, 230, 0.3);
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	color: #29C3F6;
+    background: rgba(230, 230, 230, 0.35);
+}
+
+#mainContainer{
+	height: 780px;
+	width: 100%;
+	background: url('../pictures/pocetna2.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.jumbotron{
+	background: transparent;
+	width: 100%;
+	text-align: center;
+	color: #29C3F6;
+	text-shadow: 0 1px 0 rgba(0,0,0,.25);
+	padding-top: 260px;
+
+}
+
+.jumbotron h1{
+	font-size: 98px;
+	font-family: 'Lato', sans-serif;
+}
+
+.jumbotron p{
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 10px;
+    list-style: none outside none;
+    display: inline-block;
+
+}
+
+.social i {
+    width: 55px;
+    height: 55px;
+    color: #FFF;
+    background-color: rgba(144,154,160,0.3);
+    border: solid;
+    border-color: #909AA0;
+    border-width: 1px;
+    font-size: 30px;
+    text-align:center;
+    padding-top: 17px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.6s;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    -ms-transition: all ease 0.6s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.6s;
+    -moz-transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    -ms-transition: all ease 0.6s;
+}
+
+.social .fa-facebook:hover { 
+    background: #4060A5;
+}
+
+.social .fa-linkedin:hover { 
+    background: #0094BC;
+}
+
+.social .fa-google-plus:hover {
+    background: #e64522;
+}
+
+
+
+
+
+#aboutMe{
+	height: 780px;
+	width: 100%;
+	background: #747474; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.jumbotron2{
+	background: transparent;
+	width: 100%;
+	text-align: center;
+	color: #EAECEC;
+	padding-top: 45px;
+}
+
+.jumbotron2 h1{
+	
+	font-size: 72px;
+	font-family: 'Lato', sans-serif;
+	text-shadow: 2px 3px 0 rgba(0,0,0,.25);
+}
+
+.jumbotron2 p{
+	padding-top: 15px;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+}
+
+.jumbotron2 img{
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #3B3B3B;
+    height:240px;
+    width:240px;
+    display:inline-block;
+    margin:10px;
+}
+
+.jumbotron2 a{
+	color: #29C3F6;
+}
+
+
+
+#skills{
+	height: 780px;
+	width: 100%;
+	background: #929292; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#progressBars{
+	margin-top: 70px;
+
+}
+
+.progressbar {
+	position:relative;
+	display:block;
+	margin-bottom:20px;
+	width:100%;
+	background:#eee;
+	height:45px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+.progressbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:170px;
+	font-weight:600;
+	font-size:18px;
+	color:#ffffff;
+	background:#93ab3a;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.progressbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.3);
+	padding:0 20px;
+	height:45px;
+	line-height:45px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.progressbar-bar {
+	height:45px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius: 5px;
+}
+.progress-bar-percent {
+	position:absolute;
+	right:12px;
+	top:0;
+	font-size:18px;
+	height:45px;
+	line-height:45px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 767px){
+	.jumbotron h1{
+		font-size: 54px;
+	}
+	.jumbotron p{
+		font-size: 22px;
+	}
+	.social i{
+		width: 40px;
+    	height: 40px;
+    	font-size: 18px;
+    	padding-top: 13px;
+	}
+	.jumbotron2 h1{
+		font-size: 54px;
+	}
+
+	.jumbotron2 p{
+		font-size: 18px;
+	}
+	.jumbotron2 img{
+		height:175px;
+    	width:175px;
+	}
+
+	.progressbar{
+		height:25px;
+	}
+
+	.progressbar-title{
+		width:105px;
+		font-weight:400;
+		font-size:12px;
+	}
+
+	.progressbar-title span{
+		height:25px;
+		line-height:25px;
+	}
+	.progressbar-bar{
+		height:25px;
+	}
+	.progress-bar-percent{
+	right:8px;
+	top:0;
+	font-size:10px;
+	height:25px;
+	line-height:25px;
+	}
+
+	h2{
+		font-size: 22px;
+	}
+	html,body{
+		overflow: visible;
+	}
+}
+
+#contact{
+	height: 780px;
+	width: 100%;
+	background: #A8A8A8; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#contact h2{
+	padding-top: 45px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #888888;
+}
+
+#contact p{
+	margin-top: 30px;
+
+}
+
+#skypeP{
+	padding-bottom: 20px;
+	border-bottom: 1px solid #888888;
+}
+
+#copyright{
+	padding-top: 50px;
+	color: #656565;
+}
+
+#copyright span{
+	font-family: 'Stalemate', cursive;
+	font-size: 42px;
+}
